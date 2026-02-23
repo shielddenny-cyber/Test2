@@ -1,0 +1,21 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+body { margin: 0; background:#0b0f14; color:#e8eef6; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 22px; }
+.head h1 { margin: 0 0 6px; font-size: 26px; }
+.sub { margin: 0 0 18px; color:#b6c2d0; }
+.card { background:#121a23; border:1px solid #223042; border-radius:16px; padding:16px; margin: 14px 0; }
+.row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+button { background:#00b894; border:none; padding:10px 14px; border-radius:12px; color:#04120e; font-weight:700; cursor:pointer; }
+button:disabled { opacity:.5; cursor:not-allowed; }
+.meta { margin-top:10px; display:flex; gap:12px; flex-wrap:wrap; color:#b6c2d0; font-size: 13px; }
+.preview { margin-top:14px; }
+.preview img { max-width:100%; border-radius:14px; border:1px solid #223042; }
+.error { margin-top: 12px; background:#2b0f15; border:1px solid #6b1f2d; padding:10px; border-radius:12px; }
+.pillrow { display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 14px; }
+.pill { background:#0e141c; border:1px solid #223042; padding:8px 10px; border-radius:999px; font-size: 13px; }
+.step { background:#0e141c; border:1px solid #223042; border-radius:14px; padding:12px; margin: 10px 0; }
+.steptitle { display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; }
+.prio { color:#b6c2d0; font-size: 12px; }
+.stepbody { margin-top: 8px; color:#d9e6f3; white-space: pre-wrap; }
+.stepsafety, .stepdoc { margin-top: 8px; color:#b6c2d0; font-size: 13px; }
+.foot { color:#8fa2b7; font-size: 12px; margin-top: 10px; }
